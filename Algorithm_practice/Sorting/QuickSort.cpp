@@ -1,3 +1,4 @@
+// nlogn BUt worst case is n^2
 #include <iostream>
 
 const int N = 10;
