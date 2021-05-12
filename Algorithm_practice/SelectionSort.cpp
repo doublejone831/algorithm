@@ -1,4 +1,4 @@
-#include <iostream>
+/**#include <iostream>
 
 //Swap index a and index b data in arr
 void Swap(int* arr, int a, int b){
@@ -10,10 +10,20 @@ void Swap(int* arr, int a, int b){
     return;
 }
 
-void Partition(int* arr, int )
-
-void QuickSort(int* arr, int Size){
-
+void SelectionSort(int* arr, int Size){
+    int Min_idx;
+    
+    for(int i = 0; i < Size ; i++){
+        Min_idx = i;
+        for(int j = i+1 ; j < Size ; j++){
+            if(arr[Min_idx] > arr[j]){
+                Min_idx = j;
+            }
+        }
+        if(Min_idx != i){
+            Swap(arr,Min_idx,i);
+        }
+    }
 }
 
 int main(){
@@ -25,4 +35,4 @@ int main(){
     for(int i = 0; i < Size; i++){
         std::cout << arr[i] << " ";
     }
-}
+}**/
