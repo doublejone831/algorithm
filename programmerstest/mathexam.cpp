@@ -4,8 +4,46 @@
 
 using namespace std;
 
+vector<>int solution(vector<int> answers){
+    vector<int> answer;
+    
+    vector<int> student_1;
+    vector<int> student_2;
+    vector<int> student_3;
+    
+    for(int i = 0; i < answers.size(); i++){
+        if( (i+1) % 5 != 0){
+            student_1.push_back((i+1) % 5);
+        }
+        else{
+            student_1.push_back(5);
+        }
+        int a = 1;
+        if(i % 2 == 0){
+            student_2.push_back(2);
+        }
+        else{
+            if(a == 1){
+                Student_2.push_back(a);
+                a += 2;
+            }
+            else if(a == 3){
+                Student_2.push_back(a);
+                a++;
+            }
+            else if()
+        }
+    }
+    
+    
+    return answer
+}
 
 
+
+
+
+/**
 int main(){
     vector<int> answer;
     int MAX = 10000;
@@ -161,4 +199,4 @@ int main(){
         cout << answer[i] << " ";
     }
         
-}
+}**/
