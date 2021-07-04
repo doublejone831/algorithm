@@ -3,7 +3,7 @@
 #include <vector>
 
 using namespace std;
-
+/*
 vector<>int solution(vector<int> answers){
     vector<int> answer;
     
@@ -42,8 +42,7 @@ vector<>int solution(vector<int> answers){
 
 
 
-
-/**
+/*
 int main(){
     vector<int> answer;
     int MAX = 10000;
@@ -199,4 +198,4 @@ int main(){
         cout << answer[i] << " ";
     }
         
-}**/
+}*/
